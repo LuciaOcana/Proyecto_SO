@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\lucia\\Desktop\\Proyecto_SO\\cliente\\cliente.csproj": {}
+    "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\Proyecto\\Proyecto_SO\\cliente\\cliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\lucia\\Desktop\\Proyecto_SO\\cliente\\cliente.csproj": {
+    "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\Proyecto\\Proyecto_SO\\cliente\\cliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\lucia\\Desktop\\Proyecto_SO\\cliente\\cliente.csproj",
+        "projectUniqueName": "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\Proyecto\\Proyecto_SO\\cliente\\cliente.csproj",
         "projectName": "cliente",
-        "projectPath": "C:\\Users\\lucia\\Desktop\\Proyecto_SO\\cliente\\cliente.csproj",
-        "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\lucia\\Desktop\\Proyecto_SO\\cliente\\obj\\",
+        "projectPath": "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\Proyecto\\Proyecto_SO\\cliente\\cliente.csproj",
+        "packagesPath": "C:\\Users\\Carla\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\Proyecto\\Proyecto_SO\\cliente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Carla\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

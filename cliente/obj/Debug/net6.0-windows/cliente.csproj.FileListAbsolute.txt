@@ -89,7 +89,6 @@ C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto\Proyecto_SO\cliente\bin\Debug\n
 C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto\Proyecto_SO\cliente\bin\Debug\net6.0-windows\cliente.dll
 C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto\Proyecto_SO\cliente\bin\Debug\net6.0-windows\cliente.pdb
 C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
-C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.Form1.resources
 C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
 C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
@@ -191,3 +190,4 @@ C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\28.04\V3\Versión2603\Pr
 C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\28.04\V3\Versión2603\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.pdb
 C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\28.04\V3\Versión2603\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
 C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\28.04\V3\Versión2603\Proyecto_SO\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources

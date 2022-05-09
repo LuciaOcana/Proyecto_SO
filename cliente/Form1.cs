@@ -58,7 +58,7 @@ namespace cliente
             //registro.Visible = false;
 
 
-            IPAddress direc = IPAddress.Parse("192.168.56.103");
+            IPAddress direc = IPAddress.Parse("192.168.56.101");
             //IPAddress direc = IPAddress.Parse("147.83.117.22");
             IPEndPoint ipep = new IPEndPoint(direc, puerto);
 
