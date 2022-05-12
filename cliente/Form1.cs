@@ -1,6 +1,14 @@
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Windows.Forms;
 using System.Net;
 using System.Net.Sockets;
-using System.Text;
+using System.Threading;
 
 namespace cliente
 {
@@ -9,24 +17,35 @@ namespace cliente
 
         Socket server;
         Thread Atender;
-        //public System.Windows.Forms.Keys KeyCode { get; }
+
+        string chatName;
+        
+        string [] nameInvitado = new string[3] ; //Ponemos vector de 3 ja que para jugar a nuestro parchis hay un maximo de 4 jugadores
+        string nameInvitador;
+        int jugar = 0;
+        int jugadores = 0;
+
+        string autorMensaje;
+        string mensajeChat;
+        string receptorMensaje;
 
         delegate void DelegadorParaEscribir(string mensaje);
         delegate void DelegadoGB(GroupBox mensaje);
-        delegate void DelegadaDGV(DataGridView mensaje);
+       // delegate void DelegadaDGV(DataGridView mensaje);
 
         // Puerto Carla : 50015
         // Puerto Marta : 50016
         // Puerto Lucia : 50017
         //int puerto = 50017;
-        int puerto = 9087;
-        string nameInvitado;
+        int puerto = 9690;
         public Parchís()
         {
             
             InitializeComponent();
             //Es necesario para que los elementos de los formularios puedan ser accedidos desde threads diferentes a los que los crearon.
             CheckForIllegalCrossThreadCalls = false;
+            ListaConectadosDG.MultiSelect = true;
+            ListaConectadosDG.SelectionMode = DataGridViewSelectionMode.CellSelect;
         }
 
         //-----------------------------------------------------------------------------------------------------------------------------------
@@ -55,10 +74,13 @@ namespace cliente
             iniciar_sesion.Visible = true;
             peticiones.Visible = false;
             menuStrip_usuario.Visible = false;
+            //Visibilidad chat inactiva hasta que no acepten la invitación
+            groupBoxChat.Visible = false;
+
             //registro.Visible = false;
+            
 
-
-            IPAddress direc = IPAddress.Parse("192.168.56.101");
+            IPAddress direc = IPAddress.Parse("192.168.56.103");
             //IPAddress direc = IPAddress.Parse("147.83.117.22");
             IPEndPoint ipep = new IPEndPoint(direc, puerto);
 
@@ -84,7 +106,17 @@ namespace cliente
 
         }
 
+        //
 
+    
+        public void RecibirChat(string mensaje)
+        {
+            Chat.Items.Add(chatName + ": " + mensaje);
+        }
+        //public void PonVisibleGB(GroupBox nombre)
+        //{
+        //    nombre.Visible = true;
+        //}
         //-----------------------------------------------------------------------------------------------------------------------------------
         //FUNCIÓN TENDER SERVIDOR
         private void AtenderServidor()
@@ -99,7 +131,7 @@ namespace cliente
                 // Limpiamos el mensaje
                 string mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
                 string[] trozos = mensaje.Split('/');
-                int codigo = Convert.ToInt32(trozos[0]);
+               int codigo = Convert.ToInt32(trozos[0]);
 
 
                 switch (codigo)
@@ -135,9 +167,9 @@ namespace cliente
                         }));
                         break;
                     case 4:     //REGISTRO
-                        
-                            if (trozos[1] == "SI")
-                            {
+
+                        if (trozos[1] == "SI")
+                        {
                             MessageBox.Show("¡Enhorabuena, ya estas registrado!");
                             Invoke(new Action(() =>
                             {
@@ -147,11 +179,11 @@ namespace cliente
                             }));
                         }
 
-                            else
-                            {
-                                MessageBox.Show("Lo sentimos el nombre de usuario ya se esta utilizando:( \n ¡Porfavor selecciona otro!");
-                            }
-                        
+                        else
+                        {
+                            MessageBox.Show("Lo sentimos el nombre de usuario ya se esta utilizando:( \n ¡Porfavor selecciona otro!");
+                        }
+
                         break;
                     case 5:     //INICIO SESION
 
@@ -180,17 +212,32 @@ namespace cliente
                         break;
 
                     case 6:     //LISTA CONECTADOS
-                        ListaConectadosDG.Rows.Clear();
-                        int num = Convert.ToInt32(trozos[1]);
-                        int i;
-                        for (i = 0; i < num; i++)
+                        Invoke(new Action(() =>
                         {
-                            int n = ListaConectadosDG.Rows.Add();
-                            ListaConectadosDG.Rows[n].Cells[0].Value = trozos[i + 2];
+                            ListaConectadosDG.Rows.Clear();
+                            int num = Convert.ToInt32(trozos[1]);
+                            ListaConectadosDG.RowCount = num;
+                            int n = 0;
+                            for (int i = 0; i < num; i++)
+                            {
+                                //int n = ListaConectadosDG.Rows.Add();
+                                ListaConectadosDG.Rows[n].Cells[0].Value = trozos[n + 2];
+                                n = n + 1;
+                            }
+                            this.ListaConectadosDG.Rows[0].Cells[0].Selected = false;
 
-                        }
-                        this.ListaConectadosDG.Rows[0].Cells[0].Selected = false;
-                        
+                            //ListaConectadosDG.Rows.Clear();
+                            //int num = Convert.ToInt32(trozos[1]);
+                            //int i;
+                            //for (i = 0; i < num; i++)
+                            //{
+                            //    int n = ListaConectadosDG.Rows.Add();
+                            //    ListaConectadosDG.Rows[n].Cells[0].Value = trozos[i + 2];
+
+                            //}
+                            //this.ListaConectadosDG.Rows[0].Cells[0].Selected = false;
+
+                        }));
                         break;
                     case 7:     //SERVICIOS
 
@@ -209,32 +256,89 @@ namespace cliente
                             peticiones.Visible = false;
                         }));
                         break;
+                    //INVITACION
                     case 9:
-                        
-                        var result = MessageBox.Show(trozos[1],"Invitacion",MessageBoxButtons.YesNo);
+                        var result = MessageBox.Show(trozos[1], "Invitacion", MessageBoxButtons.YesNo);
+                        //Activamos la visibilidad del chat para los que hayan aceptado la invitacíón
 
-                        if (result == DialogResult.Yes)
+                        Invoke(new Action(() =>
                         {
-                            // Enviamos al servidor el nombre del usuario       
-                            string respuestaInvitacion = "10/" + usuario_ini.Text + "/" + trozos[2] +"/Yes" ;
-                            // Enviamos al servidor el nombre tecleado
-                            byte[] msg = System.Text.Encoding.ASCII.GetBytes(respuestaInvitacion);
-                            server.Send(msg);
-                        }
-                        if (result == DialogResult.No)
-                        {
-                            // Enviamos al servidor el nombre del usuario       
-                            string respuestaInvitacion = "10/" + usuario_ini.Text + "/" + trozos[2] +"/No";
-                            // Enviamos al servidor el nombre tecleado
-                            byte[] msg = System.Text.Encoding.ASCII.GetBytes(respuestaInvitacion);
-                            server.Send(msg);
-                        }
+
+                            if (result == DialogResult.Yes)
+                            {
+
+                                // Enviamos al servidor el nombre del usuario (devuelve 10/nombre_Invitado/nombre_Invitador/Yes)       
+                                string respuestaInvitacion = "10/" + usuario_ini.Text + "/" + trozos[2] + "/Yes";
+                                //nameInvitado[jugadores] = usuario_ini.Text;
+                                //jugadores++;
+
+                                //Activamos la visibilidad del chat para los que hayan aceptado la invitacíón
+                                //DelegadoGB delegado411 = new DelegadoGB(PonVisibleGB);
+
+                                //groupBoxChat.Invoke(delegado411, new object[] { groupBoxChat });
+
+
+                                // Enviamos al servidor el nombre tecleado
+                                byte[] msg = System.Text.Encoding.ASCII.GetBytes(respuestaInvitacion);
+                                server.Send(msg);
+                                groupBoxChat.Visible = true;
+                            }
+                            if (result == DialogResult.No)
+                            {
+                                // Enviamos al servidor el nombre del usuario       
+                                string respuestaInvitacion = "10/" + usuario_ini.Text + "/" + trozos[2] + "/No";
+                                //string respuestachat = "11/" + usuario_ini.Text + "/" + trozos[2] + "/No";
+                                // Enviamos al servidor el nombre tecleado
+                                byte[] msg = System.Text.Encoding.ASCII.GetBytes(respuestaInvitacion);
+                                server.Send(msg);
+                            }
+                        }));
 
                         break;
                     case 10:
-                        MessageBox.Show(trozos[1]);
+                        if (trozos[1] == "YES")
+                        { 
+                        MessageBox.Show("Ha aceptado la invitación " + trozos[3], "invitacion", MessageBoxButtons.OK);
+                        Invoke(new Action(() =>
+                        {
+                            groupBoxChat.Visible = true;
+                        }));
+                        }
+                        else
+                        {
+                            MessageBox.Show(trozos[2]);
+                        }
+                        //DelegadoGB delegado412 = new DelegadoGB(PonVisibleGB);
+                        //groupBoxChat.Invoke(delegado412, new object[] { groupBoxChat });
+                        //DelegadorParaEscribir delegado441 = new DelegadorParaEscribir(PonMSN);
+                        //Conversacion.Invoke(delegado441, new object[] { trozos[1] });
                         this.ListaConectadosDG.Rows[0].Cells[0].Selected = false;
                         break;
+                    case 11:
+                        autorMensaje = trozos[1];
+                        int i = 0;
+                        int encontrado = 0;
+                        while(i<3 && encontrado== 0)
+                        {
+                            if (nameInvitado[i] == autorMensaje)
+                            {
+                                encontrado = 1;
+                            }
+                            i++;
+                        }
+                        if (encontrado == 0)
+                        {
+                            nameInvitado[jugadores] = autorMensaje;
+                            jugadores++;
+                        }
+                                               
+                        mensajeChat = trozos[2];
+                        receptorMensaje = trozos[3];
+                        //DelegadorParaEscribir delegado11 = new DelegadorParaEscribir(RecibirChat);
+                        //this.Invoke(delegado11, new object[] { autorMensaje, mensajeChat });
+                        Chat.Items.Add(trozos[1]+":"+trozos[2]);
+                        break;
+
 
                 }
             }
@@ -402,6 +506,24 @@ namespace cliente
             
         }
         //-----------------------------------------------------------------------------------------------------------------------------------
+        //ENTRAR CON "ENTER" (5)
+        private void entrar_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+
+                // Enviamos al servidor el nombre del usuario
+                string mensaje = "5/" + usuario_ini.Text + "/" + contraseña_ini.Text;
+                // Enviamos al servidor el nombre tecleado
+                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+                server.Send(msg);
+            }
+            else
+            {
+                MessageBox.Show("Porfavor, haga click en Enter para Iniciar Sesión :)");
+            }
+        }
+        //-----------------------------------------------------------------------------------------------------------------------------------
         //BOTON LISTA DE CONECTADOS (6)
         public void ListaConectados()
         {
@@ -472,28 +594,14 @@ namespace cliente
             //server.Receive(msg2);
         }
 
-        private void entrar_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.KeyCode == Keys.Enter)
-            {
-
-                // Enviamos al servidor el nombre del usuario
-                string mensaje = "5/" + usuario_ini.Text + "/" + contraseña_ini.Text;
-                // Enviamos al servidor el nombre tecleado
-                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
-                server.Send(msg);
-            }
-            else
-            {
-                MessageBox.Show("Porfavor, haga click en Enter para Iniciar Sesión :)");
-            }
-        }
-
+        //-----------------------------------------------------------------------------------------------------------------------------------
+        //BOTON JUGAR
         private void jugar_button_Click(object sender, EventArgs e)
         {
-
+            jugar = 1;
         }
-
+        //-----------------------------------------------------------------------------------------------------------------------------------
+        //BOTON DESCONECTARSE DEL SERVIDOR MENU SUPERIOR (0)
         private void desconectarseDelServidorToolStripMenuItem_Click(object sender, EventArgs e)
         {
             //Mensaje de desconexión
@@ -508,6 +616,8 @@ namespace cliente
             server.Close();
         }
 
+        //-----------------------------------------------------------------------------------------------------------------------------------
+        //BOTON SALIR DE LISTA CONECTADOS (8)
         private void salirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             // Enviamos al servidor el nombre del usuario
@@ -517,19 +627,130 @@ namespace cliente
             server.Send(msg);
         }
 
+        //-----------------------------------------------------------------------------------------------------------------------------------
+        //SELECCION DE INVITADOS (9)
         private void ListaConectadosDG_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            nameInvitado = ListaConectadosDG.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();
-            // Enviamos al servidor el nombre del usuario       
-            string mensaje = "9/" + usuario_ini.Text + "/" + nameInvitado ;
+            int i = 0;
+            if (jugar == 1)
+            {
+                if (jugadores < 3)
+                {
+                    nameInvitado[jugadores] = ListaConectadosDG.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();
+
+                    // Enviamos al servidor el nombre del usuario       
+                    string mensaje = "9/" + usuario_ini.Text + "/" + nameInvitado[jugadores];
+                    // Enviamos al servidor el nombre tecleado
+                    byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+                    server.Send(msg);
+                    jugadores++;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Para poder invitar hace falta pulsar el botón de 'Jugar' :)");
+            }
+        }
+
+        //BOTÓN ENVIAR MENSAJE (11) 
+        private void EnviarMensajebutton_Click(object sender, EventArgs e)
+        {
+
+            //// Envias el mensaje : 11/tu_nombre/mensaje
+            //string mensaje = "11/" + usuario_ini.Text + "/" + MensajeTextBox.Text;
+            //// Enviamos al servidor el nombre tecleado
+            //byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+            //server.Send(msg);
+            //MensajeTextBox.Clear();
+            //Chat.Items.Add(usuario_ini.Text + ":" + MensajeTextBox.Text);
+            string mensaje;
+            if (jugadores == 1)
+            {
+                // Envias el mensaje : 11/tu_nombre/mensaje/
+                mensaje = "11/" + usuario_ini.Text + "/" + MensajeTextBox.Text + "/" + nameInvitado[0];
+                // Enviamos al servidor el nombre tecleado
+                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+                server.Send(msg);
+                
+                Chat.Items.Add(usuario_ini.Text + ":" + MensajeTextBox.Text);
+                MensajeTextBox.Clear();
+            }
+            if (jugadores == 2)
+            {
+                mensaje = "11/" + usuario_ini.Text + "/" + MensajeTextBox.Text + "/" + nameInvitado[0] + "/" + nameInvitado[1];
+                // Enviamos al servidor el nombre tecleado
+                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+                server.Send(msg);
+                
+                Chat.Items.Add(usuario_ini.Text + ":" + MensajeTextBox.Text);
+                MensajeTextBox.Clear();
+            }
+            if (jugadores == 3)
+            {
+                mensaje = "11/" + usuario_ini.Text + "/" + MensajeTextBox.Text + "/" + nameInvitado[0] + "/" + nameInvitado[1] + "/" + nameInvitado[2];
+                // Enviamos al servidor el nombre tecleado
+                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+                server.Send(msg);
+                
+                Chat.Items.Add(usuario_ini.Text + ":" + MensajeTextBox.Text);
+                MensajeTextBox.Clear();
+            }
+
+
+
+        }
+
+        private void pictureBoxStarWars_Click(object sender, EventArgs e)
+        {
+            // Envias el mensaje
+            string mensaje = "11/SW/"+usuario_ini.Text+"/";
             // Enviamos al servidor el nombre tecleado
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             server.Send(msg);
         }
 
-        private void holaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void pictureBoxCasaPapel_Click(object sender, EventArgs e)
         {
+            // Envias el mensaje
+            string mensaje = "11/CP";
+            // Enviamos al servidor el nombre tecleado
+            byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+            server.Send(msg);
+        }
+
+        private void pictureBoxHarryPotter_Click(object sender, EventArgs e)
+        {
+            // Envias el mensaje
+            string mensaje = "11/HP";
+            // Enviamos al servidor el nombre tecleado
+            byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+            server.Send(msg);
             
+        }
+
+        private void InvitarButton_Click(object sender, EventArgs e)
+        {
+        //    int i = 0;
+        //    //var selectedCells = ListaConectadosDG.SelectedCells
+        //    //    .OfType<DataGridViewCell>()
+        //    //    .Where(cell => !cell.IsNewCell)
+        //    //    .ToArray();
+
+        //    //    foreach (var cell in selectedCells)
+        //    //{ 
+        //    foreach (DataGridViewCell cel in ListaConectadosDG.SelectedCells)
+        //    {
+        //        nameInvitado[i] = cel.Value.ToString();
+
+        //            // Enviamos al servidor el nombre del usuario       
+        //            string mensaje = "9/" + usuario_ini.Text + "/" + nameInvitado[i];
+        //            // Enviamos al servidor el nombre tecleado
+        //            byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+        //            server.Send(msg);
+        //            i++;
+                
+        //    }
+        //    ListaConectadosDG.ClearSelection();
         }
     }
 }
