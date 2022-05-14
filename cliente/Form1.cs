@@ -18,34 +18,33 @@ namespace cliente
         Socket server;
         Thread Atender;
 
-        string chatName;
         
-        string [] nameInvitado = new string[3] ; //Ponemos vector de 3 ja que para jugar a nuestro parchis hay un maximo de 4 jugadores
-        string nameInvitador;
+        
+        string [] nameJugadores = new string[4] ; //Ponemos vector de 3 ja que para jugar a nuestro parchis hay un maximo de 4 jugadores
         int jugar = 0;
         int jugadores = 0;
+        int idPartida;
+        
 
         string autorMensaje;
         string mensajeChat;
-        string receptorMensaje;
+        
 
         delegate void DelegadorParaEscribir(string mensaje);
         delegate void DelegadoGB(GroupBox mensaje);
-       // delegate void DelegadaDGV(DataGridView mensaje);
+        // delegate void DelegadaDGV(DataGridView mensaje);
 
         // Puerto Carla : 50015
         // Puerto Marta : 50016
         // Puerto Lucia : 50017
         //int puerto = 50017;
-        int puerto = 9690;
+        int puerto = 9980;
         public Parchís()
         {
             
             InitializeComponent();
             //Es necesario para que los elementos de los formularios puedan ser accedidos desde threads diferentes a los que los crearon.
             CheckForIllegalCrossThreadCalls = false;
-            ListaConectadosDG.MultiSelect = true;
-            ListaConectadosDG.SelectionMode = DataGridViewSelectionMode.CellSelect;
         }
 
         //-----------------------------------------------------------------------------------------------------------------------------------
@@ -76,11 +75,15 @@ namespace cliente
             menuStrip_usuario.Visible = false;
             //Visibilidad chat inactiva hasta que no acepten la invitación
             groupBoxChat.Visible = false;
+            TableroStarWars.Visible = false;
+            TableroHarryPotter.Visible = false;
+            TableroCasaDePapel.Visible = false;
+            groupBoxSeleccionTableros.Visible = false;
+            EmpezarPartidaButton.Visible = false;
 
-            //registro.Visible = false;
-            
 
-            IPAddress direc = IPAddress.Parse("192.168.56.103");
+            IPAddress direc = IPAddress.Parse("192.168.56.101");
+            //IP shiva:
             //IPAddress direc = IPAddress.Parse("147.83.117.22");
             IPEndPoint ipep = new IPEndPoint(direc, puerto);
 
@@ -105,18 +108,7 @@ namespace cliente
             }
 
         }
-
-        //
-
-    
-        public void RecibirChat(string mensaje)
-        {
-            Chat.Items.Add(chatName + ": " + mensaje);
-        }
-        //public void PonVisibleGB(GroupBox nombre)
-        //{
-        //    nombre.Visible = true;
-        //}
+        
         //-----------------------------------------------------------------------------------------------------------------------------------
         //FUNCIÓN TENDER SERVIDOR
         private void AtenderServidor()
@@ -137,15 +129,13 @@ namespace cliente
                 switch (codigo)
                 {
                     case 1:     //PARTIDAS GANADAS
-                        Invoke(new Action(() =>
-                        {
+                        
                             int partidasganadas = Convert.ToInt32(trozos[1]);
                             MessageBox.Show(usuario_consulta.Text + " ha ganado " + partidasganadas + " partidas");
-                        }));
+                        
                         break;
                     case 2:     //TABLONES JUGADOS
-                        Invoke(new Action(() =>
-                        {
+                        
                             string[] words1 = trozos[1].Split('-');
                             //a = words[1];
                             Int32.TryParse(words1[0], out int numValue);
@@ -157,14 +147,11 @@ namespace cliente
                             {
                                 MessageBox.Show(usuario_consulta.Text + " ha jugado los tablones: " + words1[1]);
                             }
-                        }));
+                        
                         break;
                     case 3:     //ID JUGADOR
-                        Invoke(new Action(() =>
-                        {
                             int idjugador = Convert.ToInt32(trozos[1]);
                             MessageBox.Show("La ID de " + usuario_consulta.Text + " es: " + idjugador);
-                        }));
                         break;
                     case 4:     //REGISTRO
 
@@ -178,7 +165,6 @@ namespace cliente
                                 registro.Visible = false;
                             }));
                         }
-
                         else
                         {
                             MessageBox.Show("Lo sentimos el nombre de usuario ya se esta utilizando:( \n ¡Porfavor selecciona otro!");
@@ -203,14 +189,13 @@ namespace cliente
                                 iniciar_sesion.Visible = false;
                                 registro.Visible = false;
                                 peticiones.Visible = true;
+                                PeticionesGroupBox.Visible = true;
                                 title.Visible = false;
                                 menuStrip_usuario.Visible = true;
                                 holaToolStripMenuItem.Text = "Hola " + usuario_ini.Text;
-                                //menuStrip_usuario.("Hola %s",usuario_ini);
                             }
                         }));
                         break;
-
                     case 6:     //LISTA CONECTADOS
                         Invoke(new Action(() =>
                         {
@@ -220,23 +205,10 @@ namespace cliente
                             int n = 0;
                             for (int i = 0; i < num; i++)
                             {
-                                //int n = ListaConectadosDG.Rows.Add();
                                 ListaConectadosDG.Rows[n].Cells[0].Value = trozos[n + 2];
                                 n = n + 1;
                             }
                             this.ListaConectadosDG.Rows[0].Cells[0].Selected = false;
-
-                            //ListaConectadosDG.Rows.Clear();
-                            //int num = Convert.ToInt32(trozos[1]);
-                            //int i;
-                            //for (i = 0; i < num; i++)
-                            //{
-                            //    int n = ListaConectadosDG.Rows.Add();
-                            //    ListaConectadosDG.Rows[n].Cells[0].Value = trozos[i + 2];
-
-                            //}
-                            //this.ListaConectadosDG.Rows[0].Cells[0].Selected = false;
-
                         }));
                         break;
                     case 7:     //SERVICIOS
@@ -256,90 +228,104 @@ namespace cliente
                             peticiones.Visible = false;
                         }));
                         break;
-                    //INVITACION
-                    case 9:
+                    case 9:      //INVITACION
                         var result = MessageBox.Show(trozos[1], "Invitacion", MessageBoxButtons.YesNo);
                         //Activamos la visibilidad del chat para los que hayan aceptado la invitacíón
 
                         Invoke(new Action(() =>
                         {
-
                             if (result == DialogResult.Yes)
                             {
-
                                 // Enviamos al servidor el nombre del usuario (devuelve 10/nombre_Invitado/nombre_Invitador/Yes)       
                                 string respuestaInvitacion = "10/" + usuario_ini.Text + "/" + trozos[2] + "/Yes";
-                                //nameInvitado[jugadores] = usuario_ini.Text;
-                                //jugadores++;
-
-                                //Activamos la visibilidad del chat para los que hayan aceptado la invitacíón
-                                //DelegadoGB delegado411 = new DelegadoGB(PonVisibleGB);
-
-                                //groupBoxChat.Invoke(delegado411, new object[] { groupBoxChat });
-
-
                                 // Enviamos al servidor el nombre tecleado
                                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(respuestaInvitacion);
                                 server.Send(msg);
-                                groupBoxChat.Visible = true;
+                                //Ocultamos para esperar a que empiece la partida. 
+                                PeticionesGroupBox.Visible = false;
+                                jugar_button.Visible = false;
                             }
                             if (result == DialogResult.No)
                             {
                                 // Enviamos al servidor el nombre del usuario       
                                 string respuestaInvitacion = "10/" + usuario_ini.Text + "/" + trozos[2] + "/No";
-                                //string respuestachat = "11/" + usuario_ini.Text + "/" + trozos[2] + "/No";
                                 // Enviamos al servidor el nombre tecleado
                                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(respuestaInvitacion);
                                 server.Send(msg);
                             }
                         }));
-
                         break;
-                    case 10:
+                    case 10:      //RECEPCION INVITACION     
                         if (trozos[1] == "YES")
-                        { 
-                        MessageBox.Show("Ha aceptado la invitación " + trozos[3], "invitacion", MessageBoxButtons.OK);
-                        Invoke(new Action(() =>
                         {
-                            groupBoxChat.Visible = true;
-                        }));
+                            idPartida = Convert.ToInt32(trozos[2]);
+                            EmpezarPartidaButton.Visible = true;
+                            if (trozos.Length == 5)
+                            {
+                                MessageBox.Show("Ha aceptado la invitación " + trozos[4], "invitacion", MessageBoxButtons.OK);
+                                nameJugadores[0] = trozos[3];//El jugador que invita 
+                                nameJugadores[1] = trozos[4];  
+                            }
+
+                            if (trozos.Length == 6)
+                            {
+                                MessageBox.Show("Ha aceptado la invitación " + trozos[5], "invitacion", MessageBoxButtons.OK);
+                                nameJugadores[2] = trozos[5];
+                            }
+                            if (trozos.Length == 7)
+                            {
+                                MessageBox.Show("Ha aceptado la invitación " + trozos[6], "invitacion", MessageBoxButtons.OK);
+                                nameJugadores[3] = trozos[6];
+                            }
                         }
                         else
                         {
                             MessageBox.Show(trozos[2]);
                         }
-                        //DelegadoGB delegado412 = new DelegadoGB(PonVisibleGB);
-                        //groupBoxChat.Invoke(delegado412, new object[] { groupBoxChat });
-                        //DelegadorParaEscribir delegado441 = new DelegadorParaEscribir(PonMSN);
-                        //Conversacion.Invoke(delegado441, new object[] { trozos[1] });
                         this.ListaConectadosDG.Rows[0].Cells[0].Selected = false;
                         break;
-                    case 11:
-                        autorMensaje = trozos[1];
-                        int i = 0;
-                        int encontrado = 0;
-                        while(i<3 && encontrado== 0)
-                        {
-                            if (nameInvitado[i] == autorMensaje)
-                            {
-                                encontrado = 1;
-                            }
-                            i++;
-                        }
-                        if (encontrado == 0)
-                        {
-                            nameInvitado[jugadores] = autorMensaje;
-                            jugadores++;
-                        }
-                                               
-                        mensajeChat = trozos[2];
-                        receptorMensaje = trozos[3];
-                        //DelegadorParaEscribir delegado11 = new DelegadorParaEscribir(RecibirChat);
-                        //this.Invoke(delegado11, new object[] { autorMensaje, mensajeChat });
-                        Chat.Items.Add(trozos[1]+":"+trozos[2]);
+                    case 11:     //MENSAJE
+                        autorMensaje = trozos[2];           
+                        mensajeChat = trozos[3];
+                        Chat.Items.Add(autorMensaje+":"+mensajeChat);
                         break;
-
-
+                    case 12:      //TABLEROS
+                        if (trozos[2]=="SW")
+                        {
+                            Invoke(new Action(() =>
+                            {
+                                TableroStarWars.Visible = true;
+                                groupBoxChat.Visible = true;
+                                groupBoxSeleccionTableros.Visible = false;
+                                EmpezarPartidaButton.Visible = false;
+                            }));   
+                        }
+                        if (trozos[2] == "HP")
+                        {
+                            Invoke(new Action(() =>
+                            {
+                                TableroHarryPotter.Visible = true;
+                                groupBoxChat.Visible = true;
+                                groupBoxSeleccionTableros.Visible = false;
+                                EmpezarPartidaButton.Visible = false;
+                            }));
+                        }
+                        if (trozos[2] == "CP")
+                        {
+                             Invoke(new Action(() =>
+                             {
+                                 TableroCasaDePapel.Visible = true;
+                                 groupBoxChat.Visible = true;
+                                 groupBoxSeleccionTableros.Visible = false;
+                                 EmpezarPartidaButton.Visible = false;
+                                 //peticiones.BackgroundImage = Properties.Resources.FondoCasaPapel;
+                                 //this.BackgroundImage = Properties.Resources.FondoCasaPapel;
+                             }));
+                        }
+                        break;
+                    case 14:      //BOTON JUGAR
+                        MessageBox.Show(trozos[1]);
+                        break;
                 }
             }
         }
@@ -394,13 +380,6 @@ namespace cliente
         //FUNCIÓN BOTÓN ENVIAR PETICIONES (1,2,3)
         private void enviar_Click(object sender, EventArgs e)
         {
-            //bool isChecked1 = false;
-            //bool isChecked2 = false;
-            //bool isChecked3 = false;
-
-            //isChecked1 = partidas_ganadas.Checked;
-            //isChecked2 = tablones.Checked;
-            //isChecked3 = id_usuario.Checked;
             //Petición partidas ganadas por el usuario seleccionado (1)
             if (partidas_ganadas.Checked && (usuario_consulta.Text.Length > 0))
             {
@@ -439,15 +418,8 @@ namespace cliente
                 byte[] msg2 = new byte[80];
                 server.Receive(msg2);
             }
+
             //Aviso petición no seleccionada.
-            //else if (String.IsNullOrWhiteSpace(usuario_consulta.Text) || (usuario_consulta.Text.Length > 0))
-            //{
-            //    MessageBox.Show("¡ATENCIÓN! \n¡Recuerda que tienes que escoger petición antes de enviar!");
-            //}
-            //else if(!isChecked1 && !isChecked2 && !isChecked3)
-            //{
-            //    MessageBox.Show("¡ATENCIÓN! \n¡Recuerda que tienes que escoger un usuario antes de enviar!");
-            //}
             else if (String.IsNullOrWhiteSpace(usuario_consulta.Text)|| (usuario_consulta.Text.Length > 0) && !partidas_ganadas.Checked && !tablones.Checked && !id_usuario.Checked)
             {
                 MessageBox.Show("¡ATENCIÓN! \n¡Recuerda que tienes que escoger petición y indicar un usuario antes de enviar!");
@@ -473,10 +445,6 @@ namespace cliente
                 // Enviamos al servidor el nombre tecleado
                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
                 server.Send(msg);
-
-                ////Recibimos la respuesta del servidor
-                //byte[] msg2 = new byte[80];
-                //server.Receive(msg2);
             }
             else
             {
@@ -490,21 +458,13 @@ namespace cliente
         
         private void entrar_Click(object sender, EventArgs e)
         {
-            //if (e.KeyCode == Keys.Enter)
-            //{
-
                 // Enviamos al servidor el nombre del usuario
                 string mensaje = "5/" + usuario_ini.Text + "/" + contraseña_ini.Text;
                 // Enviamos al servidor el nombre tecleado
                 byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
                 server.Send(msg);
-            //}
-            //else
-            //{
-            //    MessageBox.Show("Porfavor, haga click en Enter para Iniciar Sesión :)");
-            //}
-            
         }
+
         //-----------------------------------------------------------------------------------------------------------------------------------
         //ENTRAR CON "ENTER" (5)
         private void entrar_KeyDown(object sender, KeyEventArgs e)
@@ -523,6 +483,7 @@ namespace cliente
                 MessageBox.Show("Porfavor, haga click en Enter para Iniciar Sesión :)");
             }
         }
+
         //-----------------------------------------------------------------------------------------------------------------------------------
         //BOTON LISTA DE CONECTADOS (6)
         public void ListaConectados()
@@ -533,35 +494,6 @@ namespace cliente
             // Enviamos al servidor el nombre tecleado
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             server.Send(msg);
-
-            ////Recibimos la respuesta del servidor
-            //byte[] msg2 = new byte[80];
-            //server.Receive(msg2);
-            //mensaje = Encoding.ASCII.GetString(msg2).Split('\0')[0];
-            ////MessageBox.Show(mensaje);
-            //ListaConectadosDG.Rows.Clear();
-            ////Del servidor obtenemos un resultado: "jugadoresConectados.socket/listaConectados". Separaremos el resultado segun "." y insertaremos el resultado en words[]
-            //string[] words = mensaje.Split('/');
-            //Int32.TryParse(words[0], out int numValue);
-            //int existeConectado = 0;
-            //ListaConectadosDG.ColumnCount = 1;
-            ////this.ListaConectadosDG.Rows.Add();
-            //int cont = 1;
-            //while (numValue > 1 && existeConectado < numValue)
-            //{
-            //    //string[] S = words[1].Split('/');
-            //    //this.ListaConectadosDG.Rows.Add();
-            //    ListaConectadosDG.Rows.Add(words[cont]);
-
-
-            //    existeConectado++;
-            //    cont++;
-            //}
-            //if (numValue == 1)
-            //{
-            //    ListaConectadosDG.Rows.Add(words[1]);
-            //}
-
         }
 
         //-----------------------------------------------------------------------------------------------------------------------------------
@@ -574,9 +506,6 @@ namespace cliente
 
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             server.Send(msg);
-
-            ////Recibimos la respuesta del servidor
-            //byte[] msg2 = new byte[80];
         }
 
         //-----------------------------------------------------------------------------------------------------------------------------------
@@ -588,10 +517,6 @@ namespace cliente
             // Enviamos al servidor el nombre tecleado
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             server.Send(msg);
-
-            //Recibimos la respuesta del servidor
-            //byte[] msg2 = new byte[80];
-            //server.Receive(msg2);
         }
 
         //-----------------------------------------------------------------------------------------------------------------------------------
@@ -599,6 +524,14 @@ namespace cliente
         private void jugar_button_Click(object sender, EventArgs e)
         {
             jugar = 1;
+            // Enviamos al servidor el nombre del usuario
+            string mensaje = "14/" + usuario_ini.Text;
+            // Enviamos al servidor el nombre tecleado
+            byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+            server.Send(msg);
+            PeticionesGroupBox.Visible = false;
+            jugar_button.Visible = false;
+            groupBoxSeleccionTableros.Visible=false;
         }
         //-----------------------------------------------------------------------------------------------------------------------------------
         //BOTON DESCONECTARSE DEL SERVIDOR MENU SUPERIOR (0)
@@ -631,15 +564,15 @@ namespace cliente
         //SELECCION DE INVITADOS (9)
         private void ListaConectadosDG_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-            int i = 0;
+            
             if (jugar == 1)
             {
                 if (jugadores < 3)
                 {
-                    nameInvitado[jugadores] = ListaConectadosDG.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();
+                    nameJugadores[jugadores] = ListaConectadosDG.Rows[e.RowIndex].Cells[e.ColumnIndex].Value.ToString();
 
                     // Enviamos al servidor el nombre del usuario       
-                    string mensaje = "9/" + usuario_ini.Text + "/" + nameInvitado[jugadores];
+                    string mensaje = "9/" + usuario_ini.Text + "/" + nameJugadores[jugadores];
                     // Enviamos al servidor el nombre tecleado
                     byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
                     server.Send(msg);
@@ -651,59 +584,22 @@ namespace cliente
                 MessageBox.Show("Para poder invitar hace falta pulsar el botón de 'Jugar' :)");
             }
         }
-
+        //-----------------------------------------------------------------------------------------------------------------------------------
         //BOTÓN ENVIAR MENSAJE (11) 
         private void EnviarMensajebutton_Click(object sender, EventArgs e)
         {
-
-            //// Envias el mensaje : 11/tu_nombre/mensaje
-            //string mensaje = "11/" + usuario_ini.Text + "/" + MensajeTextBox.Text;
-            //// Enviamos al servidor el nombre tecleado
-            //byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
-            //server.Send(msg);
-            //MensajeTextBox.Clear();
-            //Chat.Items.Add(usuario_ini.Text + ":" + MensajeTextBox.Text);
-            string mensaje;
-            if (jugadores == 1)
-            {
-                // Envias el mensaje : 11/tu_nombre/mensaje/
-                mensaje = "11/" + usuario_ini.Text + "/" + MensajeTextBox.Text + "/" + nameInvitado[0];
-                // Enviamos al servidor el nombre tecleado
-                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
-                server.Send(msg);
-                
-                Chat.Items.Add(usuario_ini.Text + ":" + MensajeTextBox.Text);
-                MensajeTextBox.Clear();
-            }
-            if (jugadores == 2)
-            {
-                mensaje = "11/" + usuario_ini.Text + "/" + MensajeTextBox.Text + "/" + nameInvitado[0] + "/" + nameInvitado[1];
-                // Enviamos al servidor el nombre tecleado
-                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
-                server.Send(msg);
-                
-                Chat.Items.Add(usuario_ini.Text + ":" + MensajeTextBox.Text);
-                MensajeTextBox.Clear();
-            }
-            if (jugadores == 3)
-            {
-                mensaje = "11/" + usuario_ini.Text + "/" + MensajeTextBox.Text + "/" + nameInvitado[0] + "/" + nameInvitado[1] + "/" + nameInvitado[2];
-                // Enviamos al servidor el nombre tecleado
-                byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
-                server.Send(msg);
-                
-                Chat.Items.Add(usuario_ini.Text + ":" + MensajeTextBox.Text);
-                MensajeTextBox.Clear();
-            }
-
-
-
+            string mensaje = "11/" + idPartida + "/" + usuario_ini.Text + "/" + MensajeTextBox.Text ;
+            // Enviamos al servidor el nombre tecleado
+            byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
+            server.Send(msg);
+            Chat.Items.Add(usuario_ini.Text + ":" + MensajeTextBox.Text);
         }
-
+        //-----------------------------------------------------------------------------------------------------------------------------------
+        //SELECCION DE TABLERO (12)
         private void pictureBoxStarWars_Click(object sender, EventArgs e)
         {
             // Envias el mensaje
-            string mensaje = "11/SW/"+usuario_ini.Text+"/";
+            string mensaje = "12/SW/"+idPartida;
             // Enviamos al servidor el nombre tecleado
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             server.Send(msg);
@@ -712,7 +608,7 @@ namespace cliente
         private void pictureBoxCasaPapel_Click(object sender, EventArgs e)
         {
             // Envias el mensaje
-            string mensaje = "11/CP";
+            string mensaje = "12/CP"+"/"+idPartida;
             // Enviamos al servidor el nombre tecleado
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             server.Send(msg);
@@ -721,36 +617,17 @@ namespace cliente
         private void pictureBoxHarryPotter_Click(object sender, EventArgs e)
         {
             // Envias el mensaje
-            string mensaje = "11/HP";
+            string mensaje = "12/HP"+"/"+idPartida;
             // Enviamos al servidor el nombre tecleado
             byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
             server.Send(msg);
             
         }
-
-        private void InvitarButton_Click(object sender, EventArgs e)
+        //-----------------------------------------------------------------------------------------------------------------------------------
+        //BOTON EMPEZAR PARTIDA
+        private void EmpezarPartidaButton_Click(object sender, EventArgs e)
         {
-        //    int i = 0;
-        //    //var selectedCells = ListaConectadosDG.SelectedCells
-        //    //    .OfType<DataGridViewCell>()
-        //    //    .Where(cell => !cell.IsNewCell)
-        //    //    .ToArray();
-
-        //    //    foreach (var cell in selectedCells)
-        //    //{ 
-        //    foreach (DataGridViewCell cel in ListaConectadosDG.SelectedCells)
-        //    {
-        //        nameInvitado[i] = cel.Value.ToString();
-
-        //            // Enviamos al servidor el nombre del usuario       
-        //            string mensaje = "9/" + usuario_ini.Text + "/" + nameInvitado[i];
-        //            // Enviamos al servidor el nombre tecleado
-        //            byte[] msg = System.Text.Encoding.ASCII.GetBytes(mensaje);
-        //            server.Send(msg);
-        //            i++;
-                
-        //    }
-        //    ListaConectadosDG.ClearSelection();
+            groupBoxSeleccionTableros.Visible = true;
         }
     }
 }

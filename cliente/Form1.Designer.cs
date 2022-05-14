@@ -30,8 +30,8 @@
         {
             System.Windows.Forms.Label label9;
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Parchís));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             this.entrar = new System.Windows.Forms.Button();
             this.entrar_reg = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
@@ -49,23 +49,27 @@
             this.desconectar = new System.Windows.Forms.Button();
             this.iniciar_sesion = new System.Windows.Forms.GroupBox();
             this.peticiones = new System.Windows.Forms.GroupBox();
-            this.InvitarButton = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.contLbl = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.EmpezarPartidaButton = new System.Windows.Forms.Button();
+            this.groupBoxSeleccionTableros = new System.Windows.Forms.GroupBox();
             this.pictureBoxCasaPapel = new System.Windows.Forms.PictureBox();
             this.pictureBoxStarWars = new System.Windows.Forms.PictureBox();
             this.pictureBoxHarryPotter = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.PeticionesGroupBox = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.contLbl = new System.Windows.Forms.Label();
+            this.TableroHarryPotter = new System.Windows.Forms.GroupBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.TableroStarWars = new System.Windows.Forms.GroupBox();
+            this.TableroCasaDePapel = new System.Windows.Forms.GroupBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.groupBoxChat = new System.Windows.Forms.GroupBox();
             this.MensajeTextBox = new System.Windows.Forms.TextBox();
-            this.button3 = new System.Windows.Forms.Button();
             this.Chat = new System.Windows.Forms.ListBox();
             this.EnviarMensajebutton = new System.Windows.Forms.Button();
             this.jugar_button = new System.Windows.Forms.Button();
-            this.ConectadosLabel = new System.Windows.Forms.Label();
             this.ListaConectadosDG = new System.Windows.Forms.DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.servicios = new System.Windows.Forms.Label();
@@ -83,11 +87,18 @@
             label9 = new System.Windows.Forms.Label();
             this.iniciar_sesion.SuspendLayout();
             this.peticiones.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
+            this.groupBoxSeleccionTableros.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCasaPapel)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStarWars)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHarryPotter)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.PeticionesGroupBox.SuspendLayout();
+            this.TableroHarryPotter.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.TableroStarWars.SuspendLayout();
+            this.TableroCasaDePapel.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBoxChat.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ListaConectadosDG)).BeginInit();
             this.registro.SuspendLayout();
@@ -300,13 +311,15 @@
             // 
             this.peticiones.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.peticiones.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("peticiones.BackgroundImage")));
-            this.peticiones.Controls.Add(this.InvitarButton);
-            this.peticiones.Controls.Add(this.groupBox3);
-            this.peticiones.Controls.Add(this.groupBox2);
-            this.peticiones.Controls.Add(this.groupBox1);
+            this.peticiones.Controls.Add(this.TableroCasaDePapel);
+            this.peticiones.Controls.Add(this.TableroStarWars);
+            this.peticiones.Controls.Add(this.EmpezarPartidaButton);
+            this.peticiones.Controls.Add(this.groupBoxSeleccionTableros);
+            this.peticiones.Controls.Add(this.pictureBox4);
+            this.peticiones.Controls.Add(this.PeticionesGroupBox);
+            this.peticiones.Controls.Add(this.TableroHarryPotter);
             this.peticiones.Controls.Add(this.groupBoxChat);
             this.peticiones.Controls.Add(this.jugar_button);
-            this.peticiones.Controls.Add(this.ConectadosLabel);
             this.peticiones.Controls.Add(this.ListaConectadosDG);
             this.peticiones.Controls.Add(label9);
             this.peticiones.Controls.Add(this.servicios);
@@ -318,42 +331,106 @@
             this.peticiones.TabIndex = 21;
             this.peticiones.TabStop = false;
             // 
-            // InvitarButton
+            // EmpezarPartidaButton
             // 
-            this.InvitarButton.Location = new System.Drawing.Point(348, 108);
-            this.InvitarButton.Name = "InvitarButton";
-            this.InvitarButton.Size = new System.Drawing.Size(86, 26);
-            this.InvitarButton.TabIndex = 40;
-            this.InvitarButton.Text = "Invitar";
-            this.InvitarButton.UseVisualStyleBackColor = true;
-            this.InvitarButton.Click += new System.EventHandler(this.InvitarButton_Click);
+            this.EmpezarPartidaButton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EmpezarPartidaButton.BackgroundImage")));
+            this.EmpezarPartidaButton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.EmpezarPartidaButton.Location = new System.Drawing.Point(674, 613);
+            this.EmpezarPartidaButton.Name = "EmpezarPartidaButton";
+            this.EmpezarPartidaButton.Size = new System.Drawing.Size(125, 67);
+            this.EmpezarPartidaButton.TabIndex = 40;
+            this.EmpezarPartidaButton.UseVisualStyleBackColor = true;
+            this.EmpezarPartidaButton.Click += new System.EventHandler(this.EmpezarPartidaButton_Click);
             // 
-            // groupBox3
+            // groupBoxSeleccionTableros
             // 
-            this.groupBox3.Location = new System.Drawing.Point(883, 344);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(229, 115);
-            this.groupBox3.TabIndex = 39;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "groupBox3";
+            this.groupBoxSeleccionTableros.Controls.Add(this.pictureBoxCasaPapel);
+            this.groupBoxSeleccionTableros.Controls.Add(this.pictureBoxStarWars);
+            this.groupBoxSeleccionTableros.Controls.Add(this.pictureBoxHarryPotter);
+            this.groupBoxSeleccionTableros.Controls.Add(this.label11);
+            this.groupBoxSeleccionTableros.Location = new System.Drawing.Point(423, 251);
+            this.groupBoxSeleccionTableros.Name = "groupBoxSeleccionTableros";
+            this.groupBoxSeleccionTableros.Size = new System.Drawing.Size(649, 342);
+            this.groupBoxSeleccionTableros.TabIndex = 37;
+            this.groupBoxSeleccionTableros.TabStop = false;
             // 
-            // groupBox2
+            // pictureBoxCasaPapel
             // 
-            this.groupBox2.Controls.Add(this.button1);
-            this.groupBox2.Controls.Add(this.contLbl);
-            this.groupBox2.Controls.Add(this.partidas_ganadas);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.id_usuario);
-            this.groupBox2.Controls.Add(this.tablones);
-            this.groupBox2.Controls.Add(this.usuario_consulta);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.enviar);
-            this.groupBox2.Location = new System.Drawing.Point(20, 488);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(589, 293);
-            this.groupBox2.TabIndex = 38;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Peticiones";
+            this.pictureBoxCasaPapel.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxCasaPapel.Image = global::cliente.Properties.Resources.logo;
+            this.pictureBoxCasaPapel.Location = new System.Drawing.Point(169, 79);
+            this.pictureBoxCasaPapel.Name = "pictureBoxCasaPapel";
+            this.pictureBoxCasaPapel.Size = new System.Drawing.Size(297, 44);
+            this.pictureBoxCasaPapel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxCasaPapel.TabIndex = 33;
+            this.pictureBoxCasaPapel.TabStop = false;
+            this.pictureBoxCasaPapel.Click += new System.EventHandler(this.pictureBoxCasaPapel_Click);
+            // 
+            // pictureBoxStarWars
+            // 
+            this.pictureBoxStarWars.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxStarWars.Image = global::cliente.Properties.Resources.star_wars_logo_PNG20;
+            this.pictureBoxStarWars.Location = new System.Drawing.Point(82, 166);
+            this.pictureBoxStarWars.Name = "pictureBoxStarWars";
+            this.pictureBoxStarWars.Size = new System.Drawing.Size(196, 90);
+            this.pictureBoxStarWars.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxStarWars.TabIndex = 32;
+            this.pictureBoxStarWars.TabStop = false;
+            this.pictureBoxStarWars.Click += new System.EventHandler(this.pictureBoxStarWars_Click);
+            // 
+            // pictureBoxHarryPotter
+            // 
+            this.pictureBoxHarryPotter.BackColor = System.Drawing.Color.Transparent;
+            this.pictureBoxHarryPotter.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHarryPotter.Image")));
+            this.pictureBoxHarryPotter.Location = new System.Drawing.Point(369, 166);
+            this.pictureBoxHarryPotter.Name = "pictureBoxHarryPotter";
+            this.pictureBoxHarryPotter.Size = new System.Drawing.Size(177, 101);
+            this.pictureBoxHarryPotter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBoxHarryPotter.TabIndex = 31;
+            this.pictureBoxHarryPotter.TabStop = false;
+            this.pictureBoxHarryPotter.UseWaitCursor = true;
+            this.pictureBoxHarryPotter.Click += new System.EventHandler(this.pictureBoxHarryPotter_Click);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.BackColor = System.Drawing.Color.Transparent;
+            this.label11.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.label11.Location = new System.Drawing.Point(205, 29);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(231, 30);
+            this.label11.TabIndex = 34;
+            this.label11.Text = "Selecciona la tematica!";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.pictureBox4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox4.BackgroundImage")));
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.pictureBox4.Location = new System.Drawing.Point(55, 105);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(270, 57);
+            this.pictureBox4.TabIndex = 41;
+            this.pictureBox4.TabStop = false;
+            // 
+            // PeticionesGroupBox
+            // 
+            this.PeticionesGroupBox.Controls.Add(this.button1);
+            this.PeticionesGroupBox.Controls.Add(this.contLbl);
+            this.PeticionesGroupBox.Controls.Add(this.partidas_ganadas);
+            this.PeticionesGroupBox.Controls.Add(this.label5);
+            this.PeticionesGroupBox.Controls.Add(this.id_usuario);
+            this.PeticionesGroupBox.Controls.Add(this.tablones);
+            this.PeticionesGroupBox.Controls.Add(this.usuario_consulta);
+            this.PeticionesGroupBox.Controls.Add(this.label4);
+            this.PeticionesGroupBox.Controls.Add(this.enviar);
+            this.PeticionesGroupBox.Location = new System.Drawing.Point(785, 103);
+            this.PeticionesGroupBox.Name = "PeticionesGroupBox";
+            this.PeticionesGroupBox.Size = new System.Drawing.Size(589, 290);
+            this.PeticionesGroupBox.TabIndex = 38;
+            this.PeticionesGroupBox.TabStop = false;
+            this.PeticionesGroupBox.Text = "Peticiones";
             // 
             // button1
             // 
@@ -377,101 +454,96 @@
             this.contLbl.Size = new System.Drawing.Size(63, 48);
             this.contLbl.TabIndex = 12;
             // 
-            // groupBox1
+            // TableroHarryPotter
             // 
-            this.groupBox1.Controls.Add(this.pictureBoxCasaPapel);
-            this.groupBox1.Controls.Add(this.pictureBoxStarWars);
-            this.groupBox1.Controls.Add(this.pictureBoxHarryPotter);
-            this.groupBox1.Controls.Add(this.label11);
-            this.groupBox1.Location = new System.Drawing.Point(666, 585);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(414, 242);
-            this.groupBox1.TabIndex = 37;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "groupBoxTableros";
+            this.TableroHarryPotter.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.TableroHarryPotter.Controls.Add(this.pictureBox2);
+            this.TableroHarryPotter.Location = new System.Drawing.Point(374, 52);
+            this.TableroHarryPotter.Name = "TableroHarryPotter";
+            this.TableroHarryPotter.Size = new System.Drawing.Size(750, 750);
+            this.TableroHarryPotter.TabIndex = 40;
+            this.TableroHarryPotter.TabStop = false;
+            this.TableroHarryPotter.Visible = false;
             // 
-            // pictureBoxCasaPapel
+            // pictureBox2
             // 
-            this.pictureBoxCasaPapel.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxCasaPapel.Image = global::cliente.Properties.Resources.logo;
-            this.pictureBoxCasaPapel.Location = new System.Drawing.Point(84, 79);
-            this.pictureBoxCasaPapel.Name = "pictureBoxCasaPapel";
-            this.pictureBoxCasaPapel.Size = new System.Drawing.Size(236, 32);
-            this.pictureBoxCasaPapel.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxCasaPapel.TabIndex = 33;
-            this.pictureBoxCasaPapel.TabStop = false;
-            this.pictureBoxCasaPapel.Click += new System.EventHandler(this.pictureBoxCasaPapel_Click);
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(3, 20);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(744, 727);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox2.TabIndex = 0;
+            this.pictureBox2.TabStop = false;
             // 
-            // pictureBoxStarWars
+            // TableroStarWars
             // 
-            this.pictureBoxStarWars.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxStarWars.Image = global::cliente.Properties.Resources.star_wars_logo_PNG20;
-            this.pictureBoxStarWars.Location = new System.Drawing.Point(36, 127);
-            this.pictureBoxStarWars.Name = "pictureBoxStarWars";
-            this.pictureBoxStarWars.Size = new System.Drawing.Size(151, 73);
-            this.pictureBoxStarWars.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxStarWars.TabIndex = 32;
-            this.pictureBoxStarWars.TabStop = false;
-            this.pictureBoxStarWars.Click += new System.EventHandler(this.pictureBoxStarWars_Click);
+            this.TableroStarWars.AutoSize = true;
+            this.TableroStarWars.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.TableroStarWars.Controls.Add(this.pictureBox1);
+            this.TableroStarWars.Location = new System.Drawing.Point(374, 52);
+            this.TableroStarWars.Name = "TableroStarWars";
+            this.TableroStarWars.Size = new System.Drawing.Size(756, 776);
+            this.TableroStarWars.TabIndex = 39;
+            this.TableroStarWars.TabStop = false;
+            this.TableroStarWars.Visible = false;
             // 
-            // pictureBoxHarryPotter
+            // TableroCasaDePapel
             // 
-            this.pictureBoxHarryPotter.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBoxHarryPotter.Image = ((System.Drawing.Image)(resources.GetObject("pictureBoxHarryPotter.Image")));
-            this.pictureBoxHarryPotter.Location = new System.Drawing.Point(239, 124);
-            this.pictureBoxHarryPotter.Name = "pictureBoxHarryPotter";
-            this.pictureBoxHarryPotter.Size = new System.Drawing.Size(143, 81);
-            this.pictureBoxHarryPotter.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBoxHarryPotter.TabIndex = 31;
-            this.pictureBoxHarryPotter.TabStop = false;
-            this.pictureBoxHarryPotter.UseWaitCursor = true;
-            this.pictureBoxHarryPotter.Click += new System.EventHandler(this.pictureBoxHarryPotter_Click);
+            this.TableroCasaDePapel.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.TableroCasaDePapel.Controls.Add(this.pictureBox3);
+            this.TableroCasaDePapel.Location = new System.Drawing.Point(375, 52);
+            this.TableroCasaDePapel.Name = "TableroCasaDePapel";
+            this.TableroCasaDePapel.Size = new System.Drawing.Size(750, 750);
+            this.TableroCasaDePapel.TabIndex = 40;
+            this.TableroCasaDePapel.TabStop = false;
+            this.TableroCasaDePapel.Visible = false;
             // 
-            // label11
+            // pictureBox3
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Segoe UI", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.label11.Location = new System.Drawing.Point(25, 31);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(231, 30);
-            this.label11.TabIndex = 34;
-            this.label11.Text = "Selecciona la tematica!";
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox3.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox3.Image")));
+            this.pictureBox3.Location = new System.Drawing.Point(3, 20);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(744, 727);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(3, 20);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(750, 753);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
             // 
             // groupBoxChat
             // 
             this.groupBoxChat.BackColor = System.Drawing.SystemColors.ButtonFace;
             this.groupBoxChat.Controls.Add(this.MensajeTextBox);
-            this.groupBoxChat.Controls.Add(this.button3);
             this.groupBoxChat.Controls.Add(this.Chat);
             this.groupBoxChat.Controls.Add(this.EnviarMensajebutton);
-            this.groupBoxChat.Location = new System.Drawing.Point(20, 205);
+            this.groupBoxChat.Location = new System.Drawing.Point(1155, 512);
             this.groupBoxChat.Margin = new System.Windows.Forms.Padding(2);
             this.groupBoxChat.Name = "groupBoxChat";
             this.groupBoxChat.Padding = new System.Windows.Forms.Padding(2);
-            this.groupBoxChat.Size = new System.Drawing.Size(284, 278);
+            this.groupBoxChat.Size = new System.Drawing.Size(322, 287);
             this.groupBoxChat.TabIndex = 36;
             this.groupBoxChat.TabStop = false;
-            this.groupBoxChat.Text = "Chat";
             // 
             // MensajeTextBox
             // 
-            this.MensajeTextBox.Location = new System.Drawing.Point(30, 189);
+            this.MensajeTextBox.Location = new System.Drawing.Point(38, 202);
             this.MensajeTextBox.Margin = new System.Windows.Forms.Padding(2);
             this.MensajeTextBox.Name = "MensajeTextBox";
-            this.MensajeTextBox.Size = new System.Drawing.Size(209, 24);
+            this.MensajeTextBox.Size = new System.Drawing.Size(246, 24);
             this.MensajeTextBox.TabIndex = 40;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(20, 249);
-            this.button3.Margin = new System.Windows.Forms.Padding(2);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(241, 26);
-            this.button3.TabIndex = 39;
-            this.button3.Text = "Salir de la conversación";
-            this.button3.UseVisualStyleBackColor = true;
             // 
             // Chat
             // 
@@ -480,43 +552,34 @@
             this.Chat.Location = new System.Drawing.Point(27, 22);
             this.Chat.Margin = new System.Windows.Forms.Padding(2);
             this.Chat.Name = "Chat";
-            this.Chat.Size = new System.Drawing.Size(217, 148);
+            this.Chat.Size = new System.Drawing.Size(267, 166);
             this.Chat.TabIndex = 0;
             // 
             // EnviarMensajebutton
             // 
-            this.EnviarMensajebutton.Location = new System.Drawing.Point(88, 219);
+            this.EnviarMensajebutton.AutoSize = true;
+            this.EnviarMensajebutton.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("EnviarMensajebutton.BackgroundImage")));
+            this.EnviarMensajebutton.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
+            this.EnviarMensajebutton.Location = new System.Drawing.Point(109, 236);
             this.EnviarMensajebutton.Margin = new System.Windows.Forms.Padding(2);
             this.EnviarMensajebutton.Name = "EnviarMensajebutton";
-            this.EnviarMensajebutton.Size = new System.Drawing.Size(90, 26);
+            this.EnviarMensajebutton.Size = new System.Drawing.Size(110, 40);
             this.EnviarMensajebutton.TabIndex = 38;
-            this.EnviarMensajebutton.Text = "Enviar";
             this.EnviarMensajebutton.UseVisualStyleBackColor = true;
             this.EnviarMensajebutton.Click += new System.EventHandler(this.EnviarMensajebutton_Click);
             // 
             // jugar_button
             // 
-            this.jugar_button.Font = new System.Drawing.Font("Courier New", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.jugar_button.Location = new System.Drawing.Point(618, 398);
+            this.jugar_button.AutoSize = true;
+            this.jugar_button.Font = new System.Drawing.Font("Georgia", 18.32727F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.jugar_button.Image = ((System.Drawing.Image)(resources.GetObject("jugar_button.Image")));
+            this.jugar_button.Location = new System.Drawing.Point(674, 649);
             this.jugar_button.Margin = new System.Windows.Forms.Padding(2);
             this.jugar_button.Name = "jugar_button";
-            this.jugar_button.Size = new System.Drawing.Size(199, 44);
+            this.jugar_button.Size = new System.Drawing.Size(176, 64);
             this.jugar_button.TabIndex = 35;
-            this.jugar_button.Text = "Jugar :)";
             this.jugar_button.UseVisualStyleBackColor = true;
             this.jugar_button.Click += new System.EventHandler(this.jugar_button_Click);
-            // 
-            // ConectadosLabel
-            // 
-            this.ConectadosLabel.AutoSize = true;
-            this.ConectadosLabel.BackColor = System.Drawing.Color.Transparent;
-            this.ConectadosLabel.Font = new System.Drawing.Font("Courier New", 9.818182F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.ConectadosLabel.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.ConectadosLabel.Location = new System.Drawing.Point(45, 28);
-            this.ConectadosLabel.Name = "ConectadosLabel";
-            this.ConectadosLabel.Size = new System.Drawing.Size(179, 17);
-            this.ConectadosLabel.TabIndex = 22;
-            this.ConectadosLabel.Text = "PERSONAS CONECTADAS";
             // 
             // ListaConectadosDG
             // 
@@ -524,33 +587,33 @@
             this.ListaConectadosDG.BackgroundColor = System.Drawing.SystemColors.ActiveBorder;
             this.ListaConectadosDG.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.ListaConectadosDG.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.Raised;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Courier New", 9.818182F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.Desktop;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListaConectadosDG.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Courier New", 9.818182F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaConectadosDG.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             this.ListaConectadosDG.ColumnHeadersHeight = 26;
             this.ListaConectadosDG.ColumnHeadersVisible = false;
             this.ListaConectadosDG.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1});
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Courier New", 9.818182F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.ListaConectadosDG.DefaultCellStyle = dataGridViewCellStyle4;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Courier New", 9.818182F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.ListaConectadosDG.DefaultCellStyle = dataGridViewCellStyle2;
             this.ListaConectadosDG.EnableHeadersVisualStyles = false;
             this.ListaConectadosDG.GridColor = System.Drawing.SystemColors.ButtonFace;
-            this.ListaConectadosDG.Location = new System.Drawing.Point(20, 46);
+            this.ListaConectadosDG.Location = new System.Drawing.Point(55, 172);
             this.ListaConectadosDG.Name = "ListaConectadosDG";
             this.ListaConectadosDG.RowHeadersWidth = 47;
             this.ListaConectadosDG.RowTemplate.Height = 28;
-            this.ListaConectadosDG.Size = new System.Drawing.Size(244, 151);
+            this.ListaConectadosDG.Size = new System.Drawing.Size(270, 173);
             this.ListaConectadosDG.TabIndex = 27;
             this.ListaConectadosDG.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.ListaConectadosDG_CellContentClick);
             // 
@@ -702,13 +765,20 @@
             this.iniciar_sesion.PerformLayout();
             this.peticiones.ResumeLayout(false);
             this.peticiones.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
+            this.groupBoxSeleccionTableros.ResumeLayout(false);
+            this.groupBoxSeleccionTableros.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxCasaPapel)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxStarWars)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxHarryPotter)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.PeticionesGroupBox.ResumeLayout(false);
+            this.PeticionesGroupBox.PerformLayout();
+            this.TableroHarryPotter.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.TableroStarWars.ResumeLayout(false);
+            this.TableroCasaDePapel.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBoxChat.ResumeLayout(false);
             this.groupBoxChat.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.ListaConectadosDG)).EndInit();
@@ -746,7 +816,6 @@
         private Label label8;
         private TextBox contraseña_reg;
         private Button envia_reg;
-        private Label ConectadosLabel;
         //private Button ListaConectadosButton;
         private Button button1;
         private Label servicios;
@@ -764,14 +833,19 @@
         private ToolStripMenuItem holaToolStripMenuItem;
         private ToolStripMenuItem desconectarseDelServidorToolStripMenuItem;
         private ToolStripMenuItem salirToolStripMenuItem;
-        private Button button3;
         private Button EnviarMensajebutton;
         private GroupBox groupBoxChat;
         private ListBox Chat;
         private TextBox MensajeTextBox;
-        private GroupBox groupBox1;
-        private GroupBox groupBox3;
-        private GroupBox groupBox2;
-        private Button InvitarButton;
+        private GroupBox groupBoxSeleccionTableros;
+        private GroupBox TableroStarWars;
+        private GroupBox PeticionesGroupBox;
+        private GroupBox TableroCasaDePapel;
+        private GroupBox TableroHarryPotter;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox3;
+        private PictureBox pictureBox2;
+        private Button EmpezarPartidaButton;
+        private PictureBox pictureBox4;
     }
 }

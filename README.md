@@ -44,3 +44,14 @@ V2 Link video --> https://youtube.com/watch?v=nbn3KbpP5vU&feature=share
 - Generada por Lucía
 - Verificada por Carla
 - Comunicada por Marta --> https://youtu.be/cC32NDOUwxw
+
+*Versión 5*
+
+	La versión 5 implementa:
+
+ 		· Un chat entre hasta 4 jugadores
+		· Selección del tablón de juego
+
+- Generada por Carla
+- Verificada por Marta
+- Comunicada por Lucía --> 
