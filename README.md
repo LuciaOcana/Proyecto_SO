@@ -54,4 +54,4 @@ V2 Link video --> https://youtube.com/watch?v=nbn3KbpP5vU&feature=share
 
 - Generada por Carla
 - Verificada por Marta
-- Comunicada por Lucía --> 
+- Comunicada por Lucía --> https://youtu.be/uLbjT9dQMJ8
