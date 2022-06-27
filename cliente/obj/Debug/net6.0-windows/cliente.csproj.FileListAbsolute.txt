@@ -281,3 +281,363 @@ C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Version1405\Proyecto_SO\
 C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Version1405\Proyecto_SO\Proyecto_SO (1) (1)\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
 C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Version1405\Proyecto_SO\Proyecto_SO (1) (1)\Proyecto_SO\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
 C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Version1405\Proyecto_SO\Proyecto_SO (1) (1)\Proyecto_SO\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO1705\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\lucia\Desktop\Proyecto_SO1705 (1)\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\Proyecto_SO2505\Proyecto_SO2505\Proyecto_SO1705\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\lucia\Desktop\Proyecto_SO30.05\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\marta\Downloads\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\lucia\Downloads\Proyecto_SO01.06 (2)\Proyecto_SO01.06\Proyecto_SO26.05\Proyecto_SO26.05\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\lucia\Downloads\Cliente\Cliente\Cliente\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622\Cliente\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\8.6.22\Cliente080622 cliente marta\Cliente\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente_9.6.22\Cliente\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\lucia\Downloads\Cliente (2)\Cliente\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente160622\Cliente150622 (2)\Cliente\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\marta\OneDrive\Escritorio\SO\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\lucia\Downloads\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\Carla\Documents\UNI\QP 2022\SO\otros proyectos\Cliente21.6.22 (2)\Cliente17.6.22\Cliente17.6.22\cliente\obj\Debug\net6.0-windows\ref\cliente.dll
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.AssemblyReference.cache
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\refint\cliente.dll
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\bin\Debug\net6.0-windows\cliente.exe
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\bin\Debug\net6.0-windows\cliente.deps.json
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\bin\Debug\net6.0-windows\cliente.runtimeconfig.json
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\bin\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\bin\Debug\net6.0-windows\cliente.pdb
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.Parchís.resources
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.Properties.Resources.resources
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.GenerateResource.cache
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfoInputs.cache
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.AssemblyInfo.cs
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.csproj.CoreCompileInputs.cache
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.dll
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\cliente.genruntimeconfig.cache
+C:\Users\lucia\Downloads\Cliente22.06.22 (1)\Cliente22.06.22\cliente\obj\Debug\net6.0-windows\ref\cliente.dll

@@ -118,22 +118,46 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Tosca_Modern_3D_Game_Box_Logo-removebg-preview" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tosca_Modern_3D_Game_Box_Logo-removebg-preview.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="420eaf34ce5e6aae43d607d61086c740" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\420eaf34ce5e6aae43d607d61086c740.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="star_wars_logo_PNG20" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\star_wars_logo_PNG20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="142-1428900_harry-potter-collection-image-lego-harry-potter-logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\142-1428900_harry-potter-collection-image-lego-harry-potter-logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DadoP6" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DadoP6.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DadoP4" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DadoP4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="TableroSW" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TableroSW.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="FondoCasaPapel" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\bin\Debug\FondoCasaPapel.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="DadoP2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DadoP2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="star_wars_logo_PNG20" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\star_wars_logo_PNG20.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DadoP3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DadoP3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DadoP1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DadoP1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DadoP5" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\DadoP5.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image_6483441" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image_6483441.JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="image_6483441__1_" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image_6483441 (1).JPG;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reglas_del_parchís_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reglas del parchís-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Reglas_del_parchís_invitados_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Reglas del parchís_invitados-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

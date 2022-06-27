@@ -73,9 +73,9 @@ namespace cliente.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap _420eaf34ce5e6aae43d607d61086c740 {
+        internal static System.Drawing.Bitmap DadoP1 {
             get {
-                object obj = ResourceManager.GetObject("420eaf34ce5e6aae43d607d61086c740", resourceCulture);
+                object obj = ResourceManager.GetObject("DadoP1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -83,9 +83,69 @@ namespace cliente.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap FondoCasaPapel {
+        internal static System.Drawing.Bitmap DadoP2 {
             get {
-                object obj = ResourceManager.GetObject("FondoCasaPapel", resourceCulture);
+                object obj = ResourceManager.GetObject("DadoP2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DadoP3 {
+            get {
+                object obj = ResourceManager.GetObject("DadoP3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DadoP4 {
+            get {
+                object obj = ResourceManager.GetObject("DadoP4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DadoP5 {
+            get {
+                object obj = ResourceManager.GetObject("DadoP5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap DadoP6 {
+            get {
+                object obj = ResourceManager.GetObject("DadoP6", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_6483441 {
+            get {
+                object obj = ResourceManager.GetObject("image_6483441", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_6483441__1_ {
+            get {
+                object obj = ResourceManager.GetObject("image_6483441__1_", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -103,6 +163,26 @@ namespace cliente.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Reglas_del_parchís_1 {
+            get {
+                object obj = ResourceManager.GetObject("Reglas_del_parchís_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Reglas_del_parchís_invitados_1 {
+            get {
+                object obj = ResourceManager.GetObject("Reglas_del_parchís_invitados_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap star_wars_logo_PNG20 {
             get {
                 object obj = ResourceManager.GetObject("star_wars_logo_PNG20", resourceCulture);
@@ -113,9 +193,9 @@ namespace cliente.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap Tosca_Modern_3D_Game_Box_Logo_removebg_preview {
+        internal static System.Drawing.Bitmap TableroSW {
             get {
-                object obj = ResourceManager.GetObject("Tosca_Modern_3D_Game_Box_Logo-removebg-preview", resourceCulture);
+                object obj = ResourceManager.GetObject("TableroSW", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

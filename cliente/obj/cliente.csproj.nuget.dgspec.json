@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\otros proyectos\\Version1405\\Proyecto_SO\\Proyecto_SO (1) (1)\\Proyecto_SO\\cliente\\cliente.csproj": {}
+    "C:\\Users\\lucia\\Downloads\\Cliente22.06.22 (1)\\Cliente22.06.22\\cliente\\cliente.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\otros proyectos\\Version1405\\Proyecto_SO\\Proyecto_SO (1) (1)\\Proyecto_SO\\cliente\\cliente.csproj": {
+    "C:\\Users\\lucia\\Downloads\\Cliente22.06.22 (1)\\Cliente22.06.22\\cliente\\cliente.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\otros proyectos\\Version1405\\Proyecto_SO\\Proyecto_SO (1) (1)\\Proyecto_SO\\cliente\\cliente.csproj",
+        "projectUniqueName": "C:\\Users\\lucia\\Downloads\\Cliente22.06.22 (1)\\Cliente22.06.22\\cliente\\cliente.csproj",
         "projectName": "cliente",
-        "projectPath": "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\otros proyectos\\Version1405\\Proyecto_SO\\Proyecto_SO (1) (1)\\Proyecto_SO\\cliente\\cliente.csproj",
-        "packagesPath": "C:\\Users\\Carla\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Carla\\Documents\\UNI\\QP 2022\\SO\\otros proyectos\\Version1405\\Proyecto_SO\\Proyecto_SO (1) (1)\\Proyecto_SO\\cliente\\obj\\",
+        "projectPath": "C:\\Users\\lucia\\Downloads\\Cliente22.06.22 (1)\\Cliente22.06.22\\cliente\\cliente.csproj",
+        "packagesPath": "C:\\Users\\lucia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lucia\\Downloads\\Cliente22.06.22 (1)\\Cliente22.06.22\\cliente\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Carla\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lucia\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -57,7 +57,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }
