@@ -55,3 +55,14 @@ V2 Link video --> https://youtube.com/watch?v=nbn3KbpP5vU&feature=share
 - Generada por Carla
 - Verificada por Marta
 - Comunicada por Lucía --> https://youtu.be/uLbjT9dQMJ8
+
+*Versión Final*
+	La version final implementa:
+		· Finalizacion de la interfaz grafica.
+		· Ultimas actualizaciones del funcionamiento del juego.
+		
+-Generada por Lucia
+-Verificada por marta
+-Comunicada por Carla --> https://www.youtube.com/watch?v=pPr7PD8v8mc
+
+Otros detalles del programa se pueden consultar en: https://drive.google.com/drive/folders/1seesunXfnvKJ9fHgc_0NFBDdmFJ72lb3?usp=sharing
